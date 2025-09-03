@@ -1,3 +1,4 @@
+
 /* General Body Style */
 body {
     background: #f8fafc; /* light gray background */
@@ -47,3 +48,54 @@ form button {
 .text-decoration-line-through {
     color: #888 !important;
 }
+
+/* General Body Style */
+body {
+    background: #f8fafc; /* light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Todo Card Container */
+.todo-card {
+    background: #fff;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Header */
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input & Add Button */
+form input[type="text"] {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+form button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+/* Task List */
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 12px 15px;
+    transition: background 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background: #f1f5f9; /* light hover effect */
+}
+
+/* Completed Tasks */
+.text-decoration-line-through {
+    color: #888 !important;
+}
+
